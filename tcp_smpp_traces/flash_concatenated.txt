@@ -1,0 +1,91 @@
+Short Message Peer to Peer, Command: Submit_sm, Seq: 2, Len: 204
+    Length: 204
+    Operation: Submit_sm (0x00000004)
+    Sequence #: 2
+    Service type: (Default)
+    Type of number (originator): Unknown (0x00)
+    Numbering plan indicator (originator): ISDN (E163/E164) (0x01)
+    Originator address: 560
+    Type of number (recipient): International (0x01)
+    Numbering plan indicator (recipient): ISDN (E163/E164) (0x01)
+    Recipient address: 230000000000
+    .... ..00 = Messaging mode: Default SMSC mode (0x0)
+    ..00 00.. = Message type: Default message type (0x0)
+    01.. .... = GSM features: UDHI indicator (0x1)
+    Protocol id.: 0x00
+    Priority level: GSM: None      ANSI-136: Bulk         IS-95: Normal (0x00)
+    Scheduled delivery time: Immediate delivery
+    Validity period: 28800.000000000 seconds
+    .... ..00 = Delivery receipt: No SMSC delivery receipt requested (0x0)
+    .... 00.. = Message type: No recipient SME acknowledgement requested (0x0)
+    ...0 .... = Intermediate notif: No intermediate notification requested (0x0)
+    .... ...0 = Replace: Don't replace (0x0)
+    Data coding: 0xf0
+        SMPP Data Coding Scheme: Unknown (0xf0)
+        GSM SMS Data Coding
+            1111 .... = DCS Coding Group for SMS: SMS DCS: Data coding / message class (0xf)
+        GSM CBS Data Coding
+            1111 .... = DCS Coding Group for CBS: SMS DCS: Data coding / message class (0xf)
+            ..1. .... = DCS Text compression: Compressed text
+            ...1 .... = DCS Class present: Message class is present
+            .... 00.. = DCS Character set: GSM 7-bit default alphabet (0x0)
+            .... ..00 = DCS Message class: Class 0 (0x0)
+    Predefined message: 0
+    Message length: 140
+    Message bytes: 050003090201464c41534820776f726c642068656c6c6f20776f726c642068656c6c6f20…
+GSM Short Message Service User Data
+    UDH Length: 5
+        IE Id: SMS - Concatenated short messages, 8-bit reference number (0x00): message 9, part 1 of 2
+            Message identifier: 9
+            Message parts: 2
+            Message part number: 1
+    [Reassembled in: 8665]
+    Unreassembled Short Message fragment 1 of 2
+
+Short Message Peer to Peer, Command: Submit_sm, Seq: 3, Len: 136
+    Length: 136
+    Operation: Submit_sm (0x00000004)
+    Sequence #: 3
+    Service type: (Default)
+    Type of number (originator): Unknown (0x00)
+    Numbering plan indicator (originator): ISDN (E163/E164) (0x01)
+    Originator address: 560
+    Type of number (recipient): International (0x01)
+    Numbering plan indicator (recipient): ISDN (E163/E164) (0x01)
+    Recipient address: 230000000000
+    .... ..00 = Messaging mode: Default SMSC mode (0x0)
+    ..00 00.. = Message type: Default message type (0x0)
+    01.. .... = GSM features: UDHI indicator (0x1)
+    Protocol id.: 0x00
+    Priority level: GSM: None      ANSI-136: Bulk         IS-95: Normal (0x00)
+    Scheduled delivery time: Immediate delivery
+    Validity period: 28800.000000000 seconds
+    .... ..00 = Delivery receipt: No SMSC delivery receipt requested (0x0)
+    .... 00.. = Message type: No recipient SME acknowledgement requested (0x0)
+    ...0 .... = Intermediate notif: No intermediate notification requested (0x0)
+    .... ...0 = Replace: Don't replace (0x0)
+    Data coding: 0xf0
+        SMPP Data Coding Scheme: Unknown (0xf0)
+        GSM SMS Data Coding
+            1111 .... = DCS Coding Group for SMS: SMS DCS: Data coding / message class (0xf)
+        GSM CBS Data Coding
+            1111 .... = DCS Coding Group for CBS: SMS DCS: Data coding / message class (0xf)
+            ..1. .... = DCS Text compression: Compressed text
+            ...1 .... = DCS Class present: Message class is present
+            .... 00.. = DCS Character set: GSM 7-bit default alphabet (0x0)
+            .... ..00 = DCS Message class: Class 0 (0x0)
+    Predefined message: 0
+    Message length: 72
+    Message bytes: 0500030902026c6c6f20776f726c642068656c6c6f20776f726c642068656c6c6f20776f…
+GSM Short Message Service User Data
+    UDH Length: 5
+        IE Id: SMS - Concatenated short messages, 8-bit reference number (0x00): message 9, part 2 of 2
+            Message identifier: 9
+            Message parts: 2
+            Message part number: 2
+    [2 Short Message fragments (200 bytes): #8662(134), #8665(66)]
+        [Frame: 8662, payload: 0-133 (134 bytes)]
+        [Frame: 8665, payload: 134-199 (66 bytes)]
+        [Short Message fragment count: 2]
+        [Reassembled Short Message length: 200]
+    Short Message body: 464c41534820776f726c642068656c6c6f20776f726c642068656c6c6f20776f726c6420…

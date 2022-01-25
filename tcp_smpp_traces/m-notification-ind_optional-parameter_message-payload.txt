@@ -1,0 +1,39 @@
+Short Message Peer to Peer, Command: Submit_sm, Seq: 2, Len: 413
+    Length: 413
+    Operation: Submit_sm (0x00000004)
+    Sequence #: 2
+    Service type: WAP
+    Type of number (originator): Unknown (0x00)
+    Numbering plan indicator (originator): ISDN (E163/E164) (0x01)
+    Originator address: made by Aristotelis
+    Type of number (recipient): International (0x01)
+    Numbering plan indicator (recipient): ISDN (E163/E164) (0x01)
+    Recipient address: 230000000000
+    .... ..00 = Messaging mode: Default SMSC mode (0x0)
+    ..00 00.. = Message type: Default message type (0x0)
+    01.. .... = GSM features: UDHI indicator (0x1)
+    Protocol id.: 0x00
+    Priority level: GSM: None      ANSI-136: Bulk         IS-95: Normal (0x00)
+    Scheduled delivery time: Immediate delivery
+    Validity period: 28800.000000000 seconds
+    .... ..00 = Delivery receipt: No SMSC delivery receipt requested (0x0)
+    .... 00.. = Message type: No recipient SME acknowledgement requested (0x0)
+    ...0 .... = Intermediate notif: No intermediate notification requested (0x0)
+    .... ...0 = Replace: Don't replace (0x0)
+    Data coding: 0xf5
+        SMPP Data Coding Scheme: Unknown (0xf5)
+        GSM SMS Data Coding
+            1111 .... = DCS Coding Group for SMS: SMS DCS: Data coding / message class (0xf)
+        GSM CBS Data Coding
+            1111 .... = DCS Coding Group for CBS: SMS DCS: Data coding / message class (0xf)
+            ..1. .... = DCS Text compression: Compressed text
+            ...1 .... = DCS Class present: Message class is present
+            .... 01.. = DCS Character set: 8-bit data (0x1)
+            .... ..01 = DCS Message class: Class 1 - ME specific (0x1)
+    Predefined message: 0
+    Message length: 0
+    Optional parameters
+        Optional parameter: message_payload (0x0424)
+            Tag: 0x0424
+            Length: 326
+            Payload

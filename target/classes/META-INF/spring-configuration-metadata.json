@@ -1,0 +1,79 @@
+{
+  "groups": [
+    {
+      "name": "sms",
+      "type": "com.smpp.client.SmppClientProperties",
+      "sourceType": "com.smpp.client.SmppClientProperties"
+    },
+    {
+      "name": "sms.async",
+      "type": "com.smpp.client.SmppClientProperties$Async",
+      "sourceType": "com.smpp.client.SmppClientProperties",
+      "sourceMethod": "getAsync()"
+    },
+    {
+      "name": "sms.smpp",
+      "type": "com.smpp.client.SmppClientProperties$SMPP",
+      "sourceType": "com.smpp.client.SmppClientProperties",
+      "sourceMethod": "getSmpp()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sms.async.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.async.initial-delay",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.async.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.async.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.async.smpp-session-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.async.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$Async"
+    },
+    {
+      "name": "sms.smpp.detect-dlr-by-opts",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.smpp.client.SmppClientProperties$SMPP"
+    },
+    {
+      "name": "sms.smpp.host",
+      "type": "java.lang.String",
+      "sourceType": "com.smpp.client.SmppClientProperties$SMPP"
+    },
+    {
+      "name": "sms.smpp.password",
+      "type": "java.lang.String",
+      "sourceType": "com.smpp.client.SmppClientProperties$SMPP"
+    },
+    {
+      "name": "sms.smpp.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.smpp.client.SmppClientProperties$SMPP"
+    },
+    {
+      "name": "sms.smpp.user-id",
+      "type": "java.lang.String",
+      "sourceType": "com.smpp.client.SmppClientProperties$SMPP"
+    }
+  ],
+  "hints": []
+}

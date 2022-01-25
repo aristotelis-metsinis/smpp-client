@@ -1,0 +1,16 @@
+# Application configuration.
+sms:
+  smpp:
+    # The "SMSC" IP address.
+    host: 127.0.0.1
+    # The "SMSC" port number.
+    port: 2775
+    # The SMPP "system_id".
+    userId: smpp_system_id
+    # The SMPP "password".
+    password: smpp_password
+  async:
+    # Causes the application to enquire link every x seconds.
+    # Note : when internet connectivity is lost on the server running the application, this will not work.
+    # Also, when the Session unexpectedly unbinds this solution will not work.
+    initial-delay: 30000

@@ -1,0 +1,27 @@
+Short Message Peer to Peer, Command: Submit_sm, Seq: 2, Len: 197
+    Length: 197
+    Operation: Submit_sm (0x00000004)
+    Sequence #: 2
+    Service type: (Default)
+    Type of number (originator): Unknown (0x00)
+    Numbering plan indicator (originator): ISDN (E163/E164) (0x01)
+    Originator address: 560
+    Type of number (recipient): International (0x01)
+    Numbering plan indicator (recipient): ISDN (E163/E164) (0x01)
+    Recipient address: 230000000000
+    .... ..00 = Messaging mode: Default SMSC mode (0x0)
+    ..00 00.. = Message type: Default message type (0x0)
+    00.. .... = GSM features: No specific features selected (0x0)
+    Protocol id.: 0x00
+    Priority level: GSM: None      ANSI-136: Bulk         IS-95: Normal (0x00)
+    Scheduled delivery time: Immediate delivery
+    Validity period: 28800.000000000 seconds
+    .... ..00 = Delivery receipt: No SMSC delivery receipt requested (0x0)
+    .... 00.. = Message type: No recipient SME acknowledgement requested (0x0)
+    ...0 .... = Intermediate notif: No intermediate notification requested (0x0)
+    .... ...0 = Replace: Don't replace (0x0)
+    Data coding: 0x00
+        SMPP Data Coding Scheme: SMSC default alphabet (0x00)
+    Predefined message: 0
+    Message length: 133
+    Message bytes: 534d5320776f726c642068656c6c6f20776f726c642068656c6c6f20776f726c64206865…

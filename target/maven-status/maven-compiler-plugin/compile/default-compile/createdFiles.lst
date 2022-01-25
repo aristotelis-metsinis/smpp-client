@@ -1,0 +1,7 @@
+com\smpp\client\SmppClientProperties.class
+com\smpp\client\ClientSmppSessionHandler.class
+com\smpp\client\SmppClientProperties$Async.class
+com\smpp\client\SmppClient.class
+com\smpp\client\SmppClientProperties$SMPP.class
+META-INF\spring-configuration-metadata.json
+com\smpp\client\DeliveryReceipt.class

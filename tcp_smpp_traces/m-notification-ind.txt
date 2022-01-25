@@ -1,0 +1,61 @@
+Short Message Peer to Peer, Command: Submit_sm, Seq: 2, Len: 235
+    Length: 235
+    Operation: Submit_sm (0x00000004)
+    Sequence #: 2
+    Service type: WAP
+    Type of number (originator): Unknown (0x00)
+    Numbering plan indicator (originator): ISDN (E163/E164) (0x01)
+    Originator address: made by Aristotelis
+    Type of number (recipient): International (0x01)
+    Numbering plan indicator (recipient): ISDN (E163/E164) (0x01)
+    Recipient address: 230000000000
+    .... ..00 = Messaging mode: Default SMSC mode (0x0)
+    ..00 00.. = Message type: Default message type (0x0)
+    01.. .... = GSM features: UDHI indicator (0x1)
+    Protocol id.: 0x00
+    Priority level: GSM: None      ANSI-136: Bulk         IS-95: Normal (0x00)
+    Scheduled delivery time: Immediate delivery
+    Validity period: 28800.000000000 seconds
+    .... ..00 = Delivery receipt: No SMSC delivery receipt requested (0x0)
+    .... 00.. = Message type: No recipient SME acknowledgement requested (0x0)
+    ...0 .... = Intermediate notif: No intermediate notification requested (0x0)
+    .... ...0 = Replace: Don't replace (0x0)
+    Data coding: 0xf5
+        SMPP Data Coding Scheme: Unknown (0xf5)
+        GSM SMS Data Coding
+            1111 .... = DCS Coding Group for SMS: SMS DCS: Data coding / message class (0xf)
+        GSM CBS Data Coding
+            1111 .... = DCS Coding Group for CBS: SMS DCS: Data coding / message class (0xf)
+            ..1. .... = DCS Text compression: Compressed text
+            ...1 .... = DCS Class present: Message class is present
+            .... 01.. = DCS Character set: 8-bit data (0x1)
+            .... ..01 = DCS Message class: Class 1 - ME specific (0x1)
+    Predefined message: 0
+    Message length: 152
+    Message bytes: 0605040b8423f00006241f206170706c69636174696f6e2f766e642e7761702e6d6d732d…
+GSM Short Message Service User Data
+    UDH Length: 6
+        IE Id: SMS - Application port addressing scheme, 16 bit address (0x05): source port 9200, destination port 2948
+            Destination port: 2948
+            Source port: 9200
+Wireless Session Protocol, Method: Push (0x06), Content-Type: application/vnd.wap.mms-message
+    Transaction ID: 0x00
+    PDU Type: Push (0x06)
+    Headers Length: 36
+    Content-Type
+        .001 1111 = Header name: Pragma (31)
+    Content-Type: application/vnd.wap.mms-message
+    Headers
+        Integer lookup: X-Wap-Application-Id
+            .010 1111 = Header name: X-Wap-Application-ID (47)
+        X-Wap-Application-Id: x-wap-application:mms.ua
+MMS Message Encapsulation, Type: m-notification-ind
+    X-Mms-Message-Type: m-notification-ind (0x82)
+    X-Mms-Transaction-ID: 37493
+    X-Mms-MMS-Version: 1.0
+    From: made by Aristotelis
+    Subject: hello world
+    X-Mms-Message-Class: Personal (0x80)
+    X-Mms-Message-Size: 1038694
+    X-Mms-Expiry: 259200.000000000 seconds
+    X-Mms-Content-Location: http://127.0.0.1:8080/sample.mms?seed=77
